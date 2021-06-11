@@ -1,0 +1,171 @@
+.bro{
+	padding-top:60px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold; 
+	font-size:62px; 
+	color: white;
+	position:absolute;
+	left:16px;
+	top:23px;
+	text-align:left;
+}
+
+.group1{
+	position: absolute;
+	width: 45px;
+	height: 0px;
+	left: 0px;
+	top:15px;
+}
+.hamburger{
+
+	position: absolute;
+	width: 48px;
+	height: 5px;
+	left: 30px;
+	top: 0px;
+
+	background: #FFFFFF;
+	border-radius: 4px;
+}
+
+.hamburger2{
+	position: absolute;
+	width: 48px;
+	height: 5px;
+	left: 30px;
+	top: 10px;
+
+	background: #FFFFFF;
+	border-radius: 4px;
+}
+
+.hamburger3{
+	position: absolute;
+	width: 48px;
+	height: 5px;
+	left: 30px;
+	top: 20px;
+
+	background: #FFFFFF;
+	border-radius: 4px;
+}
+
+.home{
+
+	padding-top:60px;
+	position:absolute;
+	left:19px;
+	top:163px;
+	text-align:left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+
+	color: #FFFFFF;
+}
+
+.contact{
+
+	padding-top:60px;
+	position:absolute;
+	left:19px;
+	top:213px;
+	text-align:left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+
+	color: #FFFFFF;
+}
+
+.blog{
+
+	padding-top:60px;
+	position:absolute;
+	left:19px;
+	top:263px;
+	text-align:left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+
+	color: #FFFFFF;
+}
+
+.github{
+
+	padding-top:60px;
+	position:absolute;
+	left:26px;
+	top:783px;
+	height:30px;
+	width:30px;
+
+}
+
+.instagram{
+
+	padding-top:60px;
+	position:absolute;
+	left:146px;
+	top:783px;
+	height:30px;
+	width:30px;
+
+}
+
+.twitter{
+
+	padding-top:60px;
+	position:absolute;
+	left:86px;
+	top:783px;
+	height:30px;
+	width:30px;
+
+}
+
+
+.reddit{
+
+	padding-top:60px;
+	position:absolute;
+	left:206px;
+	top:783px;
+	height:30px;
+	width:30px;
+
+}
+
+body {
+	background-color:#000000;
+	padding-top:0px;
+	position:relative;
+}
+
+.card1{
+
+	position:relative;
+	width: 1900px;
+	height: 950px;
+	top:60px;
+	left: 0px;
+	border-radius:16px;
+	background-color: white;
+	transition:transform 1s;
+
+}
+
+.group1:hover ~ .card1{
+    transform: translate(300px, 0px );
+}
+
+.rightMenu{
+	position:relative;
+}
+
