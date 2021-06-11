@@ -1,3 +1,15 @@
+@font-face {
+	font-family:Gilroy;
+	src: url("./assets/fonts/Gilroy-Bold.ttf");
+	font-weight:bold;
+	font-style:normal;
+}
+@font-face {
+	font-family:Raleway;
+	src: url("./assets/fonts/Raleway-Regular.ttf");
+	font-weight:normal;
+	font-style:normal;
+}
 .bro{
 	padding-top:60px;
 	font-family: Gilroy;
@@ -23,7 +35,7 @@
 	position: absolute;
 	width: 48px;
 	height: 5px;
-	left: 30px;
+	left: 15px;
 	top: 0px;
 
 	background: #FFFFFF;
@@ -34,7 +46,7 @@
 	position: absolute;
 	width: 48px;
 	height: 5px;
-	left: 30px;
+	left: 15px;
 	top: 10px;
 
 	background: #FFFFFF;
@@ -45,7 +57,7 @@
 	position: absolute;
 	width: 48px;
 	height: 5px;
-	left: 30px;
+	left: 15px;
 	top: 20px;
 
 	background: #FFFFFF;
