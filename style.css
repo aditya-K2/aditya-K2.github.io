@@ -1,183 +1,84 @@
-@font-face {
-	font-family:Gilroy;
-	src: url("./assets/fonts/Gilroy-Bold.ttf");
-	font-weight:bold;
-	font-style:normal;
+.main{
+	padding-left: 20px;
+	padding-right: 20px;
 }
-@font-face {
-	font-family:Raleway;
-	src: url("./assets/fonts/Raleway-Regular.ttf");
-	font-weight:normal;
-	font-style:normal;
+
+button{
+  background:#1D1E20;
+  border-width:0px;
+  outline:none;
+  box-shadow:none;
 }
-.bro{
-	padding-top:60px;
-	font-family: Gilroy;
-	font-style: normal;
-	font-weight: bold; 
-	font-size:62px; 
+
+a{
+	text-decoration: none;
 	color: white;
-	position:absolute;
-	left:16px;
-	top:23px;
-	text-align:left;
 }
 
-.group1{
-	position: absolute;
-	width: 45px;
-	height: 0px;
-	left: 0px;
-	top:15px;
-}
-.hamburger{
-
-	position: absolute;
-	width: 48px;
-	height: 5px;
-	left: 15px;
-	top: 0px;
-
-	background: #FFFFFF;
-	border-radius: 4px;
+.nav{
+	display:flex;
+	justify-content:space-between;
+	padding-left:10px;
+	padding-right:10px;
+	margin: 10px;
 }
 
-.hamburger2{
-	position: absolute;
-	width: 48px;
-	height: 5px;
-	left: 15px;
-	top: 10px;
-
-	background: #FFFFFF;
-	border-radius: 4px;
-}
-
-.hamburger3{
-	position: absolute;
-	width: 48px;
-	height: 5px;
-	left: 15px;
-	top: 20px;
-
-	background: #FFFFFF;
-	border-radius: 4px;
-}
-
-.home{
-
-	padding-top:60px;
-	position:absolute;
-	left:19px;
-	top:163px;
-	text-align:left;
-	font-family: Raleway;
+.name{
+	padding:20px;
+	font-family: Source Code Pro;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-
+	font-weight: 600;
+	font-size: 29px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
 	color: #FFFFFF;
-}
-
-.contact{
-
-	padding-top:60px;
-	position:absolute;
-	left:19px;
-	top:213px;
-	text-align:left;
-	font-family: Raleway;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-
-	color: #FFFFFF;
+	flex-basis: 86%;
 }
 
 .blog{
-
-	padding-top:60px;
-	position:absolute;
-	left:19px;
-	top:263px;
-	text-align:left;
-	font-family: Raleway;
+	font-family: Source Code Pro;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 500;
 	font-size: 24px;
-
+	line-height: 28px;
+	display: flex;
+	align-items: center;
 	color: #FFFFFF;
+	flex-basis: 4%;
+	margin-left:10px;
+	margin-right:10px;
 }
 
-.github{
-
-	padding-top:60px;
-	position:absolute;
-	left:26px;
-	top:783px;
-	height:30px;
-	width:30px;
-
+.darkMToggle{
+	flex-basis:10%;
+	max-width: 42px;
+	min-width: 42px;
+	margin-right:10px;
 }
 
-.instagram{
-
-	padding-top:60px;
-	position:absolute;
-	left:146px;
-	top:783px;
-	height:30px;
-	width:30px;
-
+.bodyText{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.twitter{
-
-	padding-top:60px;
-	position:absolute;
-	left:86px;
-	top:783px;
-	height:30px;
-	width:30px;
-
+.myImage{
+	width: 50%;
+	border-radius: 10%;
+	flex : 1;
+	min-height: 528px;
+	max-height: 528px;
+	min-width: 428px;
+	max-width: 428px;
+	margin: 20px;
+	padding: 36px;
 }
 
-
-.reddit{
-
-	padding-top:60px;
-	position:absolute;
-	left:206px;
-	top:783px;
-	height:30px;
-	width:30px;
-
+.DarkMode{
+	background: white;
 }
 
-body {
-	background-color:#000000;
-	padding-top:0px;
-	position:relative;
+.TextColor{
+	color: #000000;
 }
-
-.card1{
-
-	position:relative;
-	width: 1900px;
-	height: 950px;
-	top:60px;
-	left: 0px;
-	border-radius:16px;
-	background-color: white;
-	transition:transform 1s;
-
-}
-
-.group1:hover ~ .card1{
-    transform: translate(300px, 0px );
-}
-
-.rightMenu{
-	position:relative;
-}
-
