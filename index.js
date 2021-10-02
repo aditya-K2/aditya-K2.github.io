@@ -5,29 +5,26 @@ let moonSVG = '<path fill-rule="evenodd" clip-rule="evenodd" d="M18.1312 1.60271
 
 let icon_of_hello = document.querySelector(".svgTO")
 
+function changeAttributes(foreground , background, viewBoxPosition, svgIcon){
+	icon_of_hello.innerHTML = svgIcon;
+	icon_of_hello.setAttribute("viewBox", viewBoxPosition);
+	document.body.setAttribute("bgcolor", background);
+	document.querySelector("h1").style.color=foreground;
+	document.querySelector(".name").style.color=foreground;
+	document.querySelector(".blog").style.color=foreground;
+	document.querySelector("a").style.color = foreground;
+	document.querySelector("a").style.textDecoration = "none";
+}
+
 function toggleDarkMode(){
 	if(isToggled){
-		icon_of_hello.innerHTML = sunSVG;
-		icon_of_hello.setAttribute("viewBox", "0 0 75 74");
-		document.body.setAttribute("bgcolor", "#1D1E20");
+		changeAttributes("#ffffff", "#1D1E20", "0 0 75 74", sunSVG);
 		document.querySelector("button").classList.remove("DarkMode");
-		document.querySelector("h1").style.color="#ffffff";
-		document.querySelector(".name").style.color="#ffffff";
-		document.querySelector(".blog").style.color="#ffffff";
-		document.querySelector("a").style.color = "#ffffff";
-		document.querySelector("a").style.textDecoration = "none";
 		isToggled = false;
 	}
 	else{
-		icon_of_hello.innerHTML = moonSVG;
-		icon_of_hello.setAttribute("viewBox", "0 0 80 40")
-		document.body.setAttribute("bgcolor", "#ffffff");
-		document.querySelector("button").classList.add("DarkMode")
-		document.querySelector("h1").style.color="#000000"
-		document.querySelector(".name").style.color="#000000"
-		document.querySelector(".blog").style.color="#000000"
-		document.querySelector("a").style.color = "#000000";
-		document.querySelector("a").style.textDecoration = "none"
+		changeAttributes("#000000", "#ffffff", "0 0 80 40", moonSVG);
+		document.querySelector("button").classList.add("DarkMode");
 		isToggled = true;
 	}
 }
