@@ -1,0 +1,54 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #1d1e20;
+	color : #ffffff;
+}
+
+.svgTO{
+	fill : #ffffff;
+	width: 40px;
+}
+
+.navbar{
+	font-family: Source Code Pro;
+	font-size: 25px;
+	display: flex;
+	width : 100%;
+}
+
+.name{
+	flex : 2;
+	margin: 20px;
+}
+
+.title{
+	font-weight: bold;
+}
+
+button{
+	width : 70px;
+	padding-top: 0px;
+	height : 70px;
+	background-color: inherit;
+	border-width: 0px;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+.blog{
+	font-family: Raleway;
+	letter-spacing: 1px;
+	margin: 13%;
+}
+
+.lightMode{
+	background-color: #ffffff;
+	color : #000000;
+}
+
+.lightMode-svg{
+	fill : #000000;
+}
