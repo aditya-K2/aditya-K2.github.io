@@ -11,7 +11,7 @@ function toggleDarkMode(){
 		lightMode = true
 	} else {
 		document.getElementsByClassName("github")[0].setAttribute("src", "./assets/github.svg")
-		document.getElementsByClassName("twitter")[0].setAttribute("src", "./assets/twitter.png")
+		document.getElementsByClassName("twitter")[0].setAttribute("src", "./assets/twitter.svg")
 		document.getElementsByClassName("linkedin")[0].setAttribute("src", "./assets/linkedin.svg")
 		lightMode = false
 	}
