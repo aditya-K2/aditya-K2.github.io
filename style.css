@@ -1,84 +1,147 @@
-.main{
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-button{
-  background:#1D1E20;
-  border-width:0px;
-  outline:none;
-  box-shadow:none;
-}
-
-a{
-	text-decoration: none;
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #1D1E20;
 	color: white;
 }
 
-.nav{
-	display:flex;
-	justify-content:space-between;
-	padding-left:10px;
-	padding-right:10px;
-	margin: 10px;
-}
-
-.name{
-	padding:20px;
-	font-family: Source Code Pro;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 29px;
-	line-height: 45px;
-	display: flex;
-	align-items: center;
-	color: #FFFFFF;
-	flex-basis: 86%;
-}
-
-.blog{
-	font-family: Source Code Pro;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 24px;
-	line-height: 28px;
-	display: flex;
-	align-items: center;
-	color: #FFFFFF;
-	flex-basis: 4%;
-	margin-left:10px;
-	margin-right:10px;
-}
-
-.darkMToggle{
-	flex-basis:10%;
-	max-width: 42px;
-	min-width: 42px;
-	margin-right:10px;
-}
-
-.bodyText{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.myImage{
+.myImage {
 	width: 50%;
-	border-radius: 10%;
-	flex : 1;
+	margin-right: 10%;
+	border-radius: 10px;
 	min-height: 528px;
 	max-height: 528px;
 	min-width: 428px;
 	max-width: 428px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+i {
+	font-size: 1.5rem;
+	margin-top: 21px;
+	margin-right: 14px;
+}
+
+button {
+	padding-top: 18px;
+	width: 50%;
+	height: 60%;
+	border-width: 0px;
+	background-color: inherit;
+}
+
+h2 {
+	font-family: IBM Plex Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3rem;
+	letter-spacing: 0.05em;
+	line-height: 45px;
+	color: #707070;
+}
+
+h1 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 55px;
+	font-size: 2.5rem;
+}
+
+h6 {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5rem;
+	letter-spacing: 0.05em;
+	line-height: 45px;
+	color: #7b7b7b
+}
+
+.nav{
+	font-family: Source Code Pro;
+	font-style: normal;
+	display: flex;
+	width : 100%;
+}
+
+.nav-right {
+	flex: 7;
+}
+
+.nav-left {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.buttonImage {
+	width: 40px;
+	margin-top: 16px;
+}
+
+i {
+	width: 10px;
+}
+
+.b-link{
+	font-weight: 500;
+	font-size: 1.3125rem;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.nav-right {
+	font-size: 1.3125rem;
+	font-weight: 550;
+	margin-top: 20px;
+	margin-left: 2%
+}
+
+.mainDiv {
+	display: flex;
+	flex-direction: row;
+	margin: 10%;
+	margin-top: 80px;
+}
+
+.socials {
 	margin: 20px;
-	padding: 36px;
+	width: 50px;
+	height:50px;
 }
 
-.DarkMode{
-	background: white;
+.twitter {
+	height:43px;
 }
 
-.TextColor{
-	color: #000000;
+.lightMode{
+	background-color: #f2ffcf;
+	color : black;
+}
+
+.lightMode-btn{
+	width: 50px
+}
+
+@media (max-width: 1000px){
+	.mainDiv{
+		flex-direction: column;
+		margin: 20px;
+		margin-top: 80px;
+	}
+	.myImage{
+		min-height: 0px;
+		max-height: none;
+		min-width:  0px;
+		max-width:  none;
+		width: 50%;
+	}
 }
