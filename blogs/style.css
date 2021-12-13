@@ -3,8 +3,8 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	background-color: #1d1e20;
-	color : #ffffff;
+	background-color: #f0f0f0;
+	color : #000000;
 }
 
 .svgTO{
@@ -52,10 +52,7 @@ button{
 }
 
 .lightMode{
-	background-color: #ffffff;
-	color : #000000;
+	background-color: #1d1e20;
+	color : #ffffff;
 }
 
-.lightMode-svg{
-	fill : #000000;
-}

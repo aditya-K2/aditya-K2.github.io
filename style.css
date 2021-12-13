@@ -3,8 +3,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: #1D1E20;
-	color: white;
+	background-color: #f0f0f0;
+	color : black;
 }
 
 .myImage {
@@ -61,7 +61,7 @@ h6 {
 	font-size: 1.5rem;
 	letter-spacing: 0.05em;
 	line-height: 45px;
-	color: #7b7b7b
+	color: #707070
 }
 
 .nav{
@@ -122,13 +122,9 @@ i {
 	height:43px;
 }
 
-.lightMode{
-	background-color: white;
-	color : black;
-}
-
-.lightMode-btn{
-	width: 50px
+.darkMode{
+	background-color: #1D1E20;
+	color: white;
 }
 
 @media (max-width: 1000px){
