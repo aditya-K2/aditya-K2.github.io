@@ -1,143 +1,163 @@
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	background-color: #f0f0f0;
-	color : black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f3f4f6;
+    color : black;
 }
 
 .myImage {
-	width: 50%;
-	margin-right: 10%;
-	border-radius: 10px;
-	min-height: 528px;
-	max-height: 528px;
-	min-width: 428px;
-	max-width: 428px;
+    width: 50%;
+    margin-right: 10%;
+    border-radius: 10px;
+    min-height: 528px;
+    max-height: 528px;
+    min-width: 428px;
+    max-width: 428px;
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 i {
-	font-size: 1.5rem;
-	margin-top: 21px;
-	margin-right: 14px;
+    font-size: 1.5rem;
+    margin-top: 21px;
+    margin-right: 14px;
 }
 
 button {
-	padding-top: 18px;
-	width: 50%;
-	height: 60%;
-	border-width: 0px;
-	background-color: inherit;
+    padding-top: 18px;
+    width: 50%;
+    height: 60%;
+    border-width: 0px;
+    background-color: inherit;
 }
 
 h2 {
-	font-family: IBM Plex Mono;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 3rem;
-	letter-spacing: 0.05em;
-	line-height: 45px;
-	color: #707070;
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+    line-height: 45px;
+    color: #707070;
 }
 
 h1 {
-	font-family: Poppins;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 55px;
-	font-size: 2.5rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    font-size: 2.5rem;
 }
 
 h6 {
-	font-family: Raleway;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1.5rem;
-	letter-spacing: 0.05em;
-	line-height: 45px;
-	color: #707070
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    line-height: 45px;
+    color: #707070
 }
 
 .nav{
-	font-family: Source Code Pro;
-	font-style: normal;
-	display: flex;
-	width : 100%;
+    font-family: Source Code Pro;
+    font-style: normal;
+    display: flex;
+    width : 100%;
 }
 
 .nav-right {
-	flex: 15;
+    flex: 15;
 }
 
 .nav-left {
-	flex: 1;
-	display: flex;
-	flex-direction: row;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
 }
 
 
 .buttonImage {
-	width: 40px;
-	margin-top: 16px;
+    width: 40px;
+    margin-top: 16px;
 }
 
 i {
-	width: 10px;
+    width: 10px;
 }
 
 .b-link{
-	font-weight: 500;
-	font-size: 1.3125rem;
-	margin-top: 20px;
-	margin-left: 20px;
+    font-weight: 500;
+    font-size: 1.3125rem;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .nav-right {
-	font-size: 1.3125rem;
-	font-weight: 550;
-	margin-top: 20px;
-	margin-left: 2%
+    font-size: 1.3125rem;
+    font-weight: 550;
+    margin-top: 20px;
+    margin-left: 2%
 }
 
 .mainDiv {
-	display: flex;
-	flex-direction: row;
-	margin: 10%;
-	margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+    margin-top: 80px;
+	background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #111111;
+}
+
+.socialimg{
+    margin: 20px;
+    width: 30px;
+    height:30px;
 }
 
 .socials {
-	margin: 20px;
-	width: 50px;
-	height:50px;
+    background: inherit;
+    margin: 10px;
 }
 
-.twitter {
-	height:43px;
+.socials:hover {
+    border-radius: 15px;
+    box-shadow: 0px 1px 6px #111111;
+}
+
+.links {
+    display : flex;
+    flex-direction: row;
 }
 
 .darkMode{
-	background-color: #1D1E20;
-	color: white;
+    background-color: #222222;
+    color: white;
+}
+
+.darkModeCard {
+    background: #1c1c1c;
+    box-shadow: 3px 3px 22px #111111;
 }
 
 @media (max-width: 1000px){
-	.mainDiv{
-		flex-direction: column;
-		margin: 20px;
-		margin-top: 80px;
-	}
-	.myImage{
-		min-height: 0px;
-		max-height: none;
-		min-width:  0px;
-		max-width:  none;
-		width: 50%;
-	}
+    .mainDiv{
+        flex-direction: column;
+        margin: 20px;
+        margin-top: 80px;
+    }
+    .myImage{
+        min-height: 0px;
+        max-height: none;
+        min-width:  0px;
+        max-width:  none;
+        width: 50%;
+    }
 }

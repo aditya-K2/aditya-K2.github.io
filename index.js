@@ -14,6 +14,7 @@ function toggleClass(){
 	document.getElementsByTagName("i")[0].classList.toggle("fa-sun");
 	document.getElementsByTagName("i")[0].classList.toggle("fa-moon");
 	document.body.classList.toggle("darkMode")
+    document.getElementsByClassName("mainDiv")[0].classList.toggle("darkModeCard")
 }
 
 if ( localStorage.getItem("darkMode") === "true" ) {
